@@ -1,96 +1,69 @@
-Forest Cover Prediction
-Project Overview
+# 🌲 Forest Cover Prediction
 
-This project focuses on predicting forest cover types using machine learning techniques. Using various geographic and environmental features, the model predicts the type of forest cover for a given area. The goal is to assist in forest management, conservation, and resource planning.
+## 📌 Project Overview
+This project focuses on predicting **forest cover types** using machine learning techniques. By analyzing various **geographical and environmental features**, the model can accurately classify the type of forest cover for a given area.  
+This can support better **forest management**, **conservation efforts**, and **resource planning**.
 
-Dataset
+---
 
-Source: UCI Machine Learning Repository – Covertype Dataset
+## 📊 Dataset
+- **Source:** [UCI Machine Learning Repository – Covertype Dataset](https://archive.ics.uci.edu/ml/datasets/covertype)  
+- **Description:** The dataset contains cartographic variables (elevation, slope, soil type, etc.) along with forest cover type labels.  
+- **Features:** 54 attributes (quantitative and binary)  
+- **Target:** Forest cover type (7 classes)
 
-Description: The dataset contains cartographic variables (like elevation, slope, soil type, etc.) and the corresponding forest cover type.
+**Key Features:**
+- Elevation  
+- Aspect  
+- Slope  
+- Horizontal & Vertical Distance to Hydrology  
+- Hillshade (Morning, Noon, 3pm)  
+- Soil Type  
+- Wilderness Area  
 
-Features: 54 attributes including quantitative and binary variables.
+---
 
-Target: Forest cover type (7 classes).
+## 🧰 Tools & Libraries
+- Python 3.x  
+- pandas, numpy  
+- scikit-learn  
+- matplotlib, seaborn  
+- Jupyter Notebook
 
-Features
+---
 
-Elevation
+## 🧠 Methodology
+1. **Data Preprocessing**
+   - Handled missing values
+   - Encoded categorical features
+   - Applied feature scaling
 
-Aspect
+2. **Exploratory Data Analysis (EDA)**
+   - Visualized feature distributions
+   - Checked feature correlations
+   - Identified important variables
 
-Slope
+3. **Modeling**
+   - Trained multiple models:
+     - Random Forest
+     - Decision Tree
+     - XGBoost
+   - Evaluated using accuracy, confusion matrix, and classification report
 
-Horizontal Distance to Hydrology
+4. **Model Evaluation**
+   - Selected the best model based on performance metrics
+   - Analyzed feature importance
 
-Vertical Distance to Hydrology
+---
 
-Hillshade
+## 🏆 Results
+- Achieved **XX% accuracy** using the best-performing model  
+- Strong predictive performance across most forest cover classes  
+- Identified top contributing features to improve interpretability
 
-Soil Type
+---
 
-Wilderness Area
-
-…and more
-
-Tools & Libraries
-
-Python 3.x
-
-pandas, numpy
-
-scikit-learn
-
-matplotlib, seaborn
-
-Jupyter Notebook
-
-Methodology
-
-Data Preprocessing
-
-Handling missing values
-
-Encoding categorical features
-
-Feature scaling
-
-Exploratory Data Analysis (EDA)
-
-Visualizing distributions
-
-Checking correlations between features
-
-Modeling
-
-Implemented multiple machine learning models including:
-
-Random Forest
-
-Decision Tree
-
-XGBoost
-
-Model evaluation using accuracy, confusion matrix, and classification report
-
-Model Evaluation
-
-Best model selected based on performance metrics
-
-Feature importance analysis conducted
-
-Results
-
-Achieved XX% accuracy with [Best Model Name]
-
-Confusion matrix shows strong prediction for majority classes
-
-Identified key features influencing forest cover type prediction
-
-Future Work
-
-Explore deep learning models for improved accuracy
-
-Incorporate additional geospatial datasets
-
-Deploy the model as a web app for interactive forest cover prediction
+## 🚀 Future Work
+- Explore deep learning models for better accuracy  
+- Integrate additional geospatial datasets  
+- Deploy the model as a **web app** for real-time predictions
