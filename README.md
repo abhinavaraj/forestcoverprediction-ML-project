@@ -1,4 +1,4 @@
-orest Cover Prediction
+Forest Cover Prediction
 Project Overview
 
 This project focuses on predicting forest cover types using machine learning techniques. Using various geographic and environmental features, the model predicts the type of forest cover for a given area. The goal is to assist in forest management, conservation, and resource planning.
